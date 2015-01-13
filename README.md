@@ -32,7 +32,7 @@ func application(application: UIApplication,
    return true
 }
 ```
-5.Include WeChat sharing into UIActivityView
+5. Include WeChat sharing into UIActivityView
 ```
 // look for "applicationActivities"
 let activityView = UIActivityViewController(
