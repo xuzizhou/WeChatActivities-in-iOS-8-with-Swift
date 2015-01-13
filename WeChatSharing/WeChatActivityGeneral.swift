@@ -56,7 +56,7 @@ class WeChatActivityGeneral: UIActivity {
             req.scene = WXSceneTimeline.value
         }
 
-        req.message.title = "Created by SuperBoard"
+        req.message.title = text
         req.message.description = "https://itunes.apple.com/app/superboard/id951480740?mt=8"
         var width = 240.0 as CGFloat
         var height = width*image.size.height/image.size.width
