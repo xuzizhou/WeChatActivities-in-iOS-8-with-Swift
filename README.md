@@ -13,4 +13,6 @@ Some screenshots:
     * For Chinese developers: https://open.weixin.qq.com/
     * For developers from other countries: http://dev.wechat.com/
 2. Include WeChatActivities-in-iOS-8-with-Swift
+   * Add the directory "/WeChatSharing" to your project
+   * Add the WeChat and Moments icons (in /Images.xcassets) into your Xcode assets
 3. Tune your project
