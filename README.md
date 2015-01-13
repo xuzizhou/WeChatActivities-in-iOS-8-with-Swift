@@ -18,3 +18,9 @@ Some screenshots:
       * wechat_moments (朋友圈)
       * wechat_session (微信)
 3. Tune your project
+    * Link WeChat SDK and other required resources
+    ![Add Resouces](https://raw.githubusercontent.com/xuzizhou/WeChatActivities-in-iOS-8-with-Swift/master/add-resources-screenshot.png)
+    * Add bridging header and import WeChat API header file ("WXApi.h")
+    * Register WeChat API to your project by add the following code into AppDelegate.swift
+        * WXApi.registerApp("YOUR_WECHAT_APPID")  // YOUR_WECHAT_APPID is your WeChat AppID
+4. Include WeChat sharing into UIActivityView
