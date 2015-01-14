@@ -9,7 +9,7 @@ Some screenshots:
 
 ## Getting started
 ###I suppose you are developing iOS app in Xcode 6 with Swift. If you are looking for Object-C code, check elsewhere.
-###Get a developer account at WeChat(微信) and register your app in order to get a AppID from WeChat(微信).
+###Get a developer account at WeChat(微信) and register your app in order to get an AppID from WeChat(微信).
     * For Chinese developers: https://open.weixin.qq.com/
     * For developers from other countries: http://dev.wechat.com/
 ###Include WeChatActivities-in-iOS-8-with-Swift
