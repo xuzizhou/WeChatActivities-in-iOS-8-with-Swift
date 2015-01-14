@@ -8,20 +8,27 @@ Some screenshots:
 ![iPad](https://raw.githubusercontent.com/xuzizhou/WeChatActivities-in-iOS-8-with-Swift/master/ipad-1.png)
 
 ## Getting started
+
 ###I suppose you are developing iOS app in Xcode 6 with Swift. If you are looking for Object-C code, check elsewhere.
+
 ###Get a developer account at WeChat(微信) and register your app in order to get an AppID from WeChat(微信).
     * For Chinese developers: https://open.weixin.qq.com/
     * For developers from other countries: http://dev.wechat.com/
+
 ###Include WeChatActivities-in-iOS-8-with-Swift
    * Add the directory "/WeChatSharing" to your project
    * Add the WeChat and Moments icons (in /Images.xcassets) into your Xcode assets
       * wechat_moments (朋友圈)
       * wechat_session (微信)
+
 ###Tune your project
     * Link WeChat SDK and other required resources
+    
     ![Add Resouces](https://raw.githubusercontent.com/xuzizhou/WeChatActivities-in-iOS-8-with-Swift/master/add-resources-screenshot.png)
+    
     * Add bridging header and import WeChat API header file ("WXApi.h")
     * Register WeChat API to your project by add the following code into AppDelegate.swift
+    
 ```
 func application(application: UIApplication, 
                didFinishLaunchingWithOptions 
