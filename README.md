@@ -1,5 +1,6 @@
 # WeChatActivities-in-iOS-8-with-Swift
 
+#### Test environment: Xcode 6.1, iOS 8.1
 My app using this project: https://itunes.apple.com/app/superboard/id951480740?mt=8
 
 Some screenshots:
