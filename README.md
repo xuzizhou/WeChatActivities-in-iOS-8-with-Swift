@@ -10,7 +10,7 @@ Some screenshots:
 
 ## Getting started
 
-###I suppose you are developing iOS app in Xcode 6 with Swift. If you are looking for Object-C code, check elsewhere.
+####I suppose you are developing iOS app in Xcode 6 with Swift. If you are looking for Object-C code, check elsewhere.
 
 ###Get a developer account at WeChat(微信) and register your app in order to get an AppID from WeChat(微信).
     * For Chinese developers: https://open.weixin.qq.com/
