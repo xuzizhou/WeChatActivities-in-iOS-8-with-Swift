@@ -22,10 +22,8 @@ Some screenshots:
       * wechat_session (微信)
 
 ###Tune your project
-    * Link WeChat SDK and other required resources
-    
+   * Link WeChat SDK and other required resources
     ![Add Resouces](https://raw.githubusercontent.com/xuzizhou/WeChatActivities-in-iOS-8-with-Swift/master/add-resources-screenshot.png)
-    
     * Add bridging header and import WeChat API header file ("WXApi.h")
     * Register WeChat API to your project by add the following code into AppDelegate.swift
     
