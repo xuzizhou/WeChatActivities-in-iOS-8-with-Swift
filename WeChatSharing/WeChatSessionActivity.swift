@@ -21,7 +21,6 @@ class WeChatSessionActivity: WeChatActivityGeneral {
     override func activityTitle() -> String? {
         isSessionScene = true
         return "WeChat Session"
-        //NSLocalizedString("WeChat Moments", tableName: "WeChatSharing", bundle: <#NSBundle#>, value: <#String#>, comment: <#String#>)
     }
     
     override func activityImage() -> UIImage? {
