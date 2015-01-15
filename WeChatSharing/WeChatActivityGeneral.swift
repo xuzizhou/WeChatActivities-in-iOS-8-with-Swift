@@ -48,6 +48,7 @@ class WeChatActivityGeneral: UIActivity {
     
     override func performActivity() {
         var req = SendMessageToWXReq()
+        // If you are sharing text-only messages, make req.bText=true and pick the correct WX message class
         req.bText = false
         req.message = WXMediaMessage()
         if isSessionScene {
@@ -58,6 +59,8 @@ class WeChatActivityGeneral: UIActivity {
 
         req.message.title = text
         req.message.description = "https://itunes.apple.com/app/superboard/id951480740?mt=8"
+        
+        // set the size of thumbnail image from original UIImage data
         var width = 240.0 as CGFloat
         var height = width*image.size.height/image.size.width
         UIGraphicsBeginImageContext(CGSizeMake(width, height))
