@@ -19,8 +19,9 @@ class WeChatMomentsActivity: WeChatActivityGeneral {
     
     override func activityTitle() -> String? {
         isSessionScene = false
+        //You are free to use localizable strings like this:
+        //    NSLocalizedString("WECHAT_MOMENTS",comment:"WeChat Moments")
         return "WeChat Moments"
-            //NSLocalizedString("WeChat Moments", tableName: "WeChatSharing", bundle: <#NSBundle#>, value: <#String#>, comment: <#String#>)
     }
     
     override func activityImage() -> UIImage? {
