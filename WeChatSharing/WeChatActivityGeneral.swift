@@ -35,13 +35,13 @@ class WeChatActivityGeneral: UIActivity {
     override func prepareWithActivityItems(activityItems: [AnyObject]) {
         for item in activityItems {
             if item is UIImage {
-                image = item as UIImage
+                image = item as! UIImage
             }
             if item is String {
-                text = item as String
+                text = item as! String
             }
             if item is NSURL {
-                url = item as NSURL
+                url = item as! NSURL
             }
         }
     }
